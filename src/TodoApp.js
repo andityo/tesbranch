@@ -10,7 +10,8 @@ class TodoApp extends React.Component {
     const data_todos = [
       {id: 1, description: 'Makan Pagi', completed: false},
       {id: 2, description: 'Makan Siang', completed: false},
-      {id: 3, description: 'Makan Siang', completed: false},
+      {id: 3, description: 'Makan Sore', completed: false},
+      {id: 3, description: 'Makan Malam', completed: false},
     ]
     this.state = {todos: data_todos, search: ''}
     this.onAddTodo = this.onAddTodo.bind(this)
